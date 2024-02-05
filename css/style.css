@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+html {
+	-moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body{
+    background: #EEEEEE;
+    overflow-x: hidden;
+}
+
+:root {
+    --blue-1: rgba(237, 51, 55, 1);
+    
+    
+}
+
+.omelette-container {
+    display: grid;
+    grid-template-rows: max-content max-content;
+    
+}
